@@ -67,7 +67,7 @@ RUN cd /opt && \
 # ——————————
 
 # Gradle
-ENV GRADLE_VERSION 2.4
+ENV GRADLE_VERSION 3.3
 
 RUN cd /usr/lib \
  && curl -fl https://downloads.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip -o gradle-bin.zip \
