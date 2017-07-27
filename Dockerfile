@@ -8,6 +8,7 @@ RUN apt-get update && \
     wget \
     curl \
     git \
+    ssh-agent \
     unzip -y && \
     apt-get clean
 
