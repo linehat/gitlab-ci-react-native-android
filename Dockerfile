@@ -8,6 +8,7 @@ RUN apt-get update && \
     wget \
     curl \
     git \
+    lftp \
     unzip -y && \
     apt-get clean
 
