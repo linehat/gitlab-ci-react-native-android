@@ -8,7 +8,7 @@ RUN apt-get update && \
     wget \
     curl \
     git \
-    ssh-agent \
+    lftp \
     unzip -y && \
     apt-get clean
 
