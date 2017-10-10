@@ -100,3 +100,6 @@ RUN npm install react-native-cli -g
 RUN npm install yarn -g
 
 ENV LANG en_US.UTF-8
+
+
+
